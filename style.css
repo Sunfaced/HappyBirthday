@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #131313;
+}
+
+#happy__birthday{
+    max-width: 1200px;
+    padding: 0 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+img{
+    width: 700px;
+    height: 931px;
+}
+
+ul{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+li{
+    margin-top: 40px;
+
+}
+
+.one, .two, .three{
+    height: 60px;
+    width: 400px;
+    margin-left: 30px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+
+.btnNone{
+    display: none;
+}
+
+li{
+    list-style: none;
+}
+h1{
+   line-height: 30px;
+}
